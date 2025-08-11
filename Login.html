@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="Decorated.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+<script src="Funion.js"></script>
+<body>
+<div class="container">
+  <div class="left">
+    <h1>
+      <span lang="en">Welcome to <span style="color: #6A88BC;">TechPath</span>
+    </h1>
+    <p>
+      <span lang="lo">ມາຄົ້ນຫາເສັ້ນທາງທີ່ເຫມາະໃນສາຍງານຂອງເຈົ້າກັນເລຍ</span>
+    </p>
+  </div>
+
+  <div class="right">
+    <h3>Account Login</h3>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <div class="option">
+      <label><input type="checkbox">Remember</label>
+      <a href="#">Forgot password?</a>
+    </div>
+
+    <button onclick="checkLogin()">LOGIN</button>
+    <p id="errorMsg" class="errorT">
+      <span lang="lo"> </span>
+    </p>
+  </div>
+</div>
+</body>
+</html>

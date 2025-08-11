@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Tech Path</title>
+  <link rel="stylesheet" href="Custom.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="body1">
+    <div class="navbar">
+      <div class="Logo"><img src="WhatsApp_Image_2025-07-01_at_16.47.18_fe561c04-removebg-preview.png" style="width: 150px; transform: translate( 20%, 10%);" alt="Logo"></div>
+      <div class="menu">
+        <a href="Login.html" id="loginButton">Login</a>
+          <a lang="en" a href="#" onclick="openContact()">Contact US</a>
+        </a>
+        <div id="profileIcon" class="profile-icon" style="display:none;" onclick="openProfile()">
+          <img src="WhatsApp Image 2025-02-05 at 02.23.51_bf35e5bc.jpg" alt="Profile">
+          <div class="overlay-text">Profile</div>
+        </div>
+      </div>
+      
+      <div id="profileModal" class="modal">
+        <div class="modal-contentP">
+          <span class="close" onclick="closeProfile()">&times;</span>
+          <h2>Profile</h2>
+          <p>Username: Admin</p>
+          <button type="button" onclick="editProfile()">Edit Profile</button>
+          <button type="button" onclick="logout()">Logout</button>
+        </div>
+      </div>
+  
+      <div id="contactModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeContact()">&times;</span>
+          <h2>Contact Us</h2>
+          <form>
+            <input type="text" placeholder="ຊື່" lang="lo">
+            <input type="email" placeholder="ອີເມວ" lang="lo">
+            <textarea placeholder="ກ່ຽວກັບ..." rows="5" lang="lo"></textarea>
+            <button type="submit" onclick="randomLink()" lang="en">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    <div class="header">
+      <div class="headerText">
+        <h2>
+          <span lang="lo">ສາຍວຽກທີ່ເຈົ້າຕາມຫາອາດເປັນດ້ານ</span>
+        </h2>
+        <div class="typing-text" id="typewriter"></div>
+        <p>
+          <span lang="lo">ມາຄົ້ນຫາອາຊີບທີ່ເຈົ້າຕ້ອງການ ເພື່ອການວາງແຜນອະນາຄົດທີ່ໝັ້ນຄົງ</span>
+        </p>
+      </div>
+     
+      <div class="menu-bar">
+        <a href="#1">
+          <div class="menu-item">
+            <img src="9e4e6e7cff91cfb14eb50dd4d6c14194abd0061c.png" alt="IT Development">
+            <p><span lang="lo" lang="en">IT Development</span></p>
+          </div>
+        </a>
+        <div class="menu-item">
+          <img src="3276fd164c8f460f39546e360d2c3955e6c294b6.png" alt="IT Infrastructure">
+          <p><span lang="lo" lang="en">IT Infrastructure</span></p>
+        </div>
+        <div class="menu-item">
+          <img src="3276fd164c8f460f39546e36955e6c294b6.png" alt="Data/Analytic">
+          <p><span lang="lo" lang="en">Data/Analytics</span></p>
+        </div>
+        <div class="menu-item">
+          <img src="3276fd164c8f460f39546e36955e6c294b6 - Copy.png" alt="Design">
+          <p> <span lang="lo" lang="en">Design</span></p>
+        </div>
+        <div class="menu-item">
+          <img src="3276fd164c8f460f39546e36955e6c294b6 - Copy (2).png" alt="IT Support">
+          <p> <span lang="lo" lang="en">IT Support</span></p>
+        </div>
+        <div class="menu-item">
+          <img src="3276fd164c8f460f39546e36955e6c294b6 - Copy (3) - Copy.png" alt="Emerring Technology">
+          <p><span lang="lo" lang="en">Emerring Technology</span></p>
+        </div>
+        <div class="menu-item">
+          <img src="3276fd164c8f460f39546e36955e6c294b6 - Copy (3).png" alt="IT Management">
+          <p> <span lang="lo" lang="en">Management</span></p>
+        </div>
+      </div>
+    </div>
+  
+    <h2 class="lol">
+      <span lang="lo">ເປັນຫຍັງເຮົາຕ້ອງຮູ້ຈັກອາຊີບທີ່ຕົນຕ້ອງເຮັດ?</span>
+    </h2>
+  
+    <p class="low">
+      <span lang="lo">
+        ໃນຍຸກປັດຈຸບັນ,ເຕັກໂນໂລຊີຂໍ້ມູນຂ່າວສານ(Information Technology - IT) ໄດ້ເຂົ້າມາມີບົດບາດສຳຄັນໃນທຸກດ້ານຂອງຊີວິດທັງດ້ານທຸລະກິດ,ການສຶກສາ,ການແພດແລະ
+        ການສື່ສານສົ່ງຜົນໃຫ້ສາຍວຽກດ້ານ IT ເຕີບໂຕຂຶ້ນຢ່າງຕໍ່ເນື່ອງ ແລະ ເປັນໜຶ່ງໃນອາຊີບທີ່<b>ຕະຫຼາດແຮງງານມີຄວາມຕ້ອງການສູງ.</b>
+      </span>
+    </p>
+  
+    <p class="low1">
+      <span lang="lo" lang="en">ສາຍວຽກໃນດ້ານIT<b>ບໍ່ໄດ້ຈຳກັດຢູ່ພຽງການຂຽນໂປຣແກຣມເທົ່ານັ້ນ</b>, ແຕ່ຍັງກວມລວມໄປເຖິງຫຼາຍສາຂາເຊັ່ນ:</span>
+    </p>
+  
+    <div class="icon-grid">
+      <div class="icon-item">
+        <img src="WhatsApp_Image_2025-06-30_at_21.34.34_5f081880_-_Copy__2_-removebg-preview.png" alt="icon">
+        <p style="position: absolute; top: 90%; left: 17%; "><span lang="lo" lang="en">ການວິເຄາະລະບົບ</span></p>
+      </div>
+      <div class="icon-item">
+        <img src="WhatsApp_Image_2025-06-30_at_21.34.34_5f081880_-_Copy__3_-removebg-preview.png" alt="icon">
+        <p style="position: absolute; top: 90%; left: 17%; "><span lang="lo" lang="en">ການຄຸ້ມຄອງເຄືອຂ່າຍ</span></p>
+      </div>
+      <div class="icon-item">
+        <img src="WhatsApp_Image_2025-06-30_at_21.34.34_5f081880_-_Copy__4_-removebg-preview.png" alt="icon">
+        <p style="position: absolute; top: 90%; left: 4%; "><span lang="lo" lang="en">ການຮັກສາຄວາມປອດໄພຂອງຂໍ້ມູນ</span></p>
+      </div>
+      <div class="icon-item">
+        <img src="WhatsApp_Image_2025-06-30_at_21.34.34_5f081880_-_Copy__5_-removebg-preview.png" alt="icon">
+        <p style="position: absolute; top: 90%; left: 14%; "><span lang="lo" lang="en">ການຈັດການຂໍ້ມູນ</span></p>
+      </div>
+      <div class="icon-item">
+        <img src="WhatsApp_Image_2025-06-30_at_21.34.34_5f081880_-_Copy-removebg-preview.png" alt="icon">
+        <p style="position: absolute; top: 90%; left: 17%; "><span lang="lo" lang="en">ການຂຽນໂປຣແກຣມ</span></p>
+      </div>
+      <div class="icon-item">
+        <img src="WhatsApp_Image_2025-06-30_at_21.34.34_5f081880-removebg-preview.png" alt="icon">
+        <p style="position: absolute; top: 90%; left: 24%; "><span lang="lo" lang="en">ແອັບພິເຄຊັນ</span></p>
+      </div>
+    </div>
+  
+    <p class="low2">
+      <span lang="lo">ດັ່ງນັ້ນ, ເນື້ອຫາຕໍ່ໄປນີ້ຈຶ່ງໄດ້ຖືກເຮັດຂຶ້ນເພື່ອອະທິບາຍປະເພດແລະແນະນໍາຂອງອາຊີບໃນສາຍITຢ່າງຊັດເຈນໂດຍມີຈຸດປະສົງເພື່ອໃຫ້ຜູ້ອ່ານເຂົ້າໃຈເຖິງຫນ້າທີ່ແລະທັກສະທີ່ຈຳເປັນໃນແຕ່ລະປະເພດຂອງງານ ເຊິ່ງຈະເປັນປະໂຫຍດແກ່ຜູ້ທີ່ສົນໃຈ ຫຼື ກຳລັງວາງແຜນເຂົ້າສູ່ສາຍວຽກດ້ານITໃຫ້ສາມາດກຽມຄວາມພ້ອມໄດ້ຢ່າງເໝາະສົມ.</span>
+    </p>
+
+    <p class="low3">
+      ປະເພດສາຍງານດ້ານ IT ມີຢູ່ຫຼາກຫຼາຍປະເພດ, ແຕ່ຫຼັກໆແລ້ວສາມາດຈັດແບ່ງອອກ<span style="font-weight: bold;">ເປັນ 7 ປະເພດສາຍງານໃຫຍ່ໆດັ່ງນີ້:</span> 
+    </p>
+  </div>
+
+  <div class="navbar2">
+    <div class="menu-bar2" id="1">
+          <img src="WhatsApp_Image_2025-06-30_at_21.34.34_5f081880_-_Copy-removebg-preview.png " alt="icon" class="icon-itdev">
+          <h2 class="title-itdev">ສາຍພັດທະນາ (IT Development)</h2>
+      </div>
+  
+      <div class="card-itdev">
+        <div class="card-body-it">
+          <div class="left-section-it">
+              <h3 class="section-title-it"> ສາຍພັດທະນາ<br><span style="font-weight: bold; color: royalblue;">IT Development</span></h3>
+              <p class="description-it">
+                ແມ່ນສາຍງານທີ່ກ່ຽວຂ້ອງກັບ ການຂຽນໂປຣແກຣມ ແລະ ການສ້າງລະບົບຊອບແວ ທຸກປະເພດ ທັງເວັບໄຊ ແອັບພິເຄຊັນມືຖື ໂປຣແກຣມໃນຄອມພິວເຕີເປັນຕົ້ນ
+              </p>
+          </div>
+              
+          <div class="right-section-it">
+            <h3 class="sub-title-it">ອາຊີບທີ່ເປັນທີ່ນິຍົມໃນສາຍນີ້:</h3>
+            <div class="job-grid-it">
+              <a href="IT Development.html#SE">
+                <div class="job-box-it" style="background-color: #9686fa;">
+                  <img class="img-job" src="1.png">
+                  <p class="text-job">Software Engineer</p>
+                </div>
+              </a>
+
+              <a href="IT Development.html#SD">
+                <div class="job-box-it" style="background-color: #97baf7;">
+                  <img class="img-job" src="2.png">
+                  <p class="text-job">Software Developer</p>
+                </div>
+              </a>
+
+              <a href="IT Development.html#WD">
+                <div class="job-box-it" style="background-color: #59d8be;">
+                  <img class="img-job" src="3.png">
+                  <p class="text-job">Web Developer</p>
+                </div>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card-itdev2">
+        <div class="card-body-it">
+          <div class="left-section-it2">
+            <h4 class="sub-title-ith2">Other:</h4>
+          </div>
+          <div class="right-section-it">
+            <div class="other-grid-it">
+              <div class="other-box-it"></div>
+              <div class="other-box-it"></div>
+              <div class="other-box-it"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+<script src="Funion.js"></script>
+<script>
+  checkSession();
+</script>
+</body>
+</html>

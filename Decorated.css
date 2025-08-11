@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Jua', sans-serif;
+}
+
+[lang="lo"] {
+  font-family: 'Noto Sans Lao', 'Phetsarath OT', sans-serif;
+}
+
+[lang="en"] {
+  font-family: 'Jua', sans-serif;
+}
+ 
+body, html {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background: linear-gradient(135deg, #505BCF, #000000);
+  color: white;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.left p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.right {
+  flex: 1;
+  background: #fff;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right h3 {
+  color: #505BCF;
+  font-size: 22px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.right input {
+  width: 80%;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.option a {
+  text-decoration: none;
+  color: #666;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  width: 25%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #505BCF, #6A88BC);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.errorT {
+  color:red; 
+  margin-top:10px; 
+  font-size: 14px;
+}
