@@ -8,9 +8,9 @@ body {
 .body1 {
   position:relative;
   background-color: #f0f5ff;
-  padding: 50px;
   box-shadow: 0 0 2px 2px rgba(0,0,0,0.4);
   max-width: 1450px;
+  padding: 0 0 20px 0;
   border-radius: 0 0 30px 30px;
 }
 
@@ -25,7 +25,7 @@ body {
 .navbar {
   background: linear-gradient(to bottom, #fffbfb, #dfdede);
   color: rgb(0, 0, 0);
-  padding: 15px 20px;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,16 +83,16 @@ body {
 .modal-content form input,
 .modal-content form textarea {
   width: 100%;
-  padding: 12px 15px;
+  padding: 5px 5px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #999aff;
   border-radius: 5px;
 }
 
 .modal-content form button {
-  width: 100%;
-  padding: 12px;
-  margin-left: 15px;
+  width: 300px;
+  padding: 15px;
+  margin-left: 110px;
   background: #2575fc;
   color: #fff;
   border: none;
@@ -179,10 +179,9 @@ body {
 .header {
   background: linear-gradient(to bottom, #505BCF, #6A88BC);
   color: rgb(255, 255, 255);
+  max-width: 100%;
   text-align: center;
-  padding: 30px 100px;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  padding:  5px 5px;
 }
 
 .header h1 {
@@ -217,7 +216,7 @@ body {
 .menu-bar {
   display: flex;
   position: relative;
-  top: 110px;
+  top: 90px;
   justify-content: center;
   background-color: #ffffff;
   padding: 10px 520px;
@@ -226,7 +225,7 @@ body {
   border-radius: 40px;  
   margin: 10px 290px;
   margin-top: 5px;
-  margin-left: 40px;
+  margin-left: 150px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -321,13 +320,13 @@ color: cadetblue;
   line-height: 1.7; 
   text-align: center;
   color: #003366;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .menu-bar2 {
   display: flex;
   position: relative;
-  top: -100px;
+  top: -70px;
   justify-content: center;
   background-color: #ffffff;
   padding: 2px 2px;
@@ -339,16 +338,28 @@ color: cadetblue;
 }
 
 .navbar2 {
-  max-width: 1450px;
-  background-color:  #f0f5ff; 
+  max-width: 100%;
+  background-color:  #F8FAFF; 
   border-radius: 0 0 15px 15px;
-  padding: 50px 45px;
+  top: 1px;
+  padding: 15px 50px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.navbar3 {
+  max-width: 100%;
+  background-color:  #F8FAFF; 
+  border-radius: 0 0 15px 15px;
+  top: 20px;
+  padding: 15px 50px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.3);
 }
 
 .card-itdev2 {
   max-width: 1450px;
   margin-bottom: 30px;
-  background-color: #f0f5ff;
+  background-color: #F8FAFF;
   border-radius: 0 0 15px 15px;
   padding: 25px 35px;
 }
@@ -364,16 +375,18 @@ color: cadetblue;
   padding-left: 120px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   border-radius: 20px;
-  background-color: #ffffff;
+  background-color: #F8FAFF;
 }
 
 .icon-itdev {
-  width: 40px;
-  height: 40px;
+  margin-top: -10px;
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
 }
 
 .title-itdev {
-  font-size: 22px;
+  font-size: 21px;
   color: #2a3b8f;
   margin: 0;
 }
@@ -453,6 +466,8 @@ color: cadetblue;
 .img-job {
   width: 250px;
   height: 200px;
+  background-size: cover;
+  background-position: center;
   border-radius: 12px 12px 0 0;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
@@ -460,9 +475,9 @@ color: cadetblue;
 .text-job {
   color: #003082;
   text-shadow: inset 0 0 15px rgba(0,0,0, 0.5);
+  font-size: 13px;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
 .job-box-it:hover {

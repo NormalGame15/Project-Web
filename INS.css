@@ -8,27 +8,30 @@ body {
 
 .container {
     max-width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
 .role1 {
-    background-color: #F9FAFF;
+    background-color: #E3F4F3;
     display: flex;
     align-items: center;
     overflow: hidden;
+    bottom: 20px;
     position: relative;
     top: -10px;
 }
 .role2 {
-    background-color: #F9FAFF;
+    background-color: #F5F4F0;
     display: flex;
     align-items: center;
     overflow: hidden;
+    bottom: 20px;
     position: relative;
     top: -10px;
 }
 .role3 {
-    background-color: #FFFFFF;
+    background-color: #EEF8F9;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -58,7 +61,7 @@ body {
     width: 450px;
     height: 750px;
     background-size: cover;
-    background-position: center;
+    background-position: 500px;
     margin-right: 20px;
 }
 
@@ -66,7 +69,7 @@ body {
     width: 450px;
     height: 750px;
     background-size: cover;
-    background-position: center;
+    background-position: 980px;
     margin-right: 20px;
 }
 
@@ -79,18 +82,17 @@ body {
 }
 
 .software-engineer .illustration1 {
-    background-image: url('/Pictures/b7cac2feec285f13f6eedecbe5724c441ac55981.png');
+    background-image: url('/Pictures/b (1).jpeg');
 }
 .software-developer .illustration2 {
-    background-image: url('/Pictures/ea6f3a4222fee22a8aed840c9142c2c71f5e0473.png');
+    background-image: url('/Pictures/b (2).jpeg');
 }
 .web-developer .illustration3 {
-    background-image: url('/Pictures/5429dade8a9871d87c07e4be5cacc3196d55cd46.png');
+    background-image: url('/Pictures/b (4).jpeg');
 }
 
 .content {
     flex: 3;
-    margin: 20px;
 }
 
 .content h2 {
@@ -147,19 +149,20 @@ body {
 
 .content2 {
     flex: 3;
+    margin: 20px;
 }
 
 .content2 h2 {
     text-decoration: underline;
     font-size: 40px;
-    color: #1800AD;
+    color: #6C4200;
     margin: 0 0 15px 0;
     /* margin-left: 205px; */
 }
 
 .content2 p {
     font-size: 18px;
-    color: #1800AD;
+    color: #6C4200;
     margin: 0 0 30px 0;
 }
 
@@ -175,7 +178,7 @@ body {
 
 .skills2 h3 {
     font-size: 30px;
-    color: #1800AD;
+    color: #6C4200;
     margin-top: 15px;
 }
 
@@ -186,7 +189,7 @@ body {
 
 .skills2 ul li {
     font-size: 18px;
-    color: #1800AD;
+    color: #6C4200;
     margin-top: 15px;
     position: relative;
     padding-left: 15px;
@@ -194,7 +197,7 @@ body {
 
 .skills2 ul li:before {
     content: "•";
-    color: #1800AD;
+    color: #6C4200;
     position: absolute;
     left: 0;
 }
