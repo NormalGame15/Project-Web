@@ -52,7 +52,34 @@ function closeContact() {
   document.getElementById("contactModal").style.display = "none";
 }
 
-function randomLink() {
+function randomLinkF() {
+  const links = [
+    "https://www.facebook.com/share/1ZB9fcyjTY/?mibextid=wwXIfr",
+    "https://www.facebook.com/share/1BgyFjvV53/?mibextid=wwXIfr",
+    "https://www.facebook.com/share/16uPKefMRD/",
+    "https://www.facebook.com/share/16yjKodz52/",
+  ];
+
+  const randomIndex = Math.floor(Math.random() * links.length);
+
+  window.location.href = links[randomIndex];
+}
+
+function randomLinkIG() {
+  const links = [
+    "https://www.instagram.com/andrea_ninida?igsh=bWEyejhzczdmNWw%3D&utm_source=qr",
+    "https://www.instagram.com/07_stb?igsh=MWFiaXE1OWs0MGUwOA%3D%3D&utm_source=qr",
+    "https://www.instagram.com/im_not_urxboy?igsh=cG5qNWh5cTRuaWRq",
+    "https://www.instagram.com/bmoo.__?igsh=MWNrZmdzMjhtamw3bA%3D%3D&utm_source=qr",
+    "https://www.instagram.com/mfsc_derd49/?igsh=MWFiaXE1OWs0MGUwOA%3D%3D&utm_source=qr#",
+  ];
+
+  const randomIndex = Math.floor(Math.random() * links.length);
+
+  window.location.href = links[randomIndex];
+}
+
+function randomLinkW() {
   const links = [
     "https://www.instagram.com/andrea_ninida?igsh=bWEyejhzczdmNWw%3D&utm_source=qr",
     "https://www.instagram.com/07_stb?igsh=MWFiaXE1OWs0MGUwOA%3D%3D&utm_source=qr",
@@ -109,9 +136,3 @@ function closeProfile() {
 function editProfile() {
   alert("ຟັງຊັນ Edit Profile ຢູ່ໃນການພັດທະນາ 🔧");
 }
-
-document.querySelectorAll('.other-box-it').forEach(box => {
-  box.addEventListener('click', () => {
-    box.classList.toggle('active');
-  });
-});

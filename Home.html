@@ -9,12 +9,15 @@
 </head>
 <body>
   <div class="body1">
-    <div class="navbar">
-      <div class="Logo"><img src="/Pictures/WhatsApp_Image_2025-07-01_at_16.47.18_fe561c04-removebg-preview.png" style="width: 150px; transform: translate( 20%, 10%);" alt="Logo"></div>
+
+    <!-- navbar1 -->
+    <div class="navbar" id="Home">
+      <div class="Logo">
+        <img src="/Pictures/WhatsApp_Image_2025-07-01_at_16.47.18_fe561c04-removebg-preview.png" style="width: 150px; transform: translate( 20%, 10%);" alt="Logo">
+      </div>
+      <p class="Text-menu">ແນະນຳສາຍອາຊີບໃນຂະແໜງເຕັກໂນໂລຊີ</p>
       <div class="menu">
-        <a href="Login.html" id="loginButton">Login</a>
-          <a lang="en" a href="#" onclick="openContact()">Contact US</a>
-        </a>
+        <a href="Login.html" id="loginButton">Login</a> 
         <div id="profileIcon" class="profile-icon" style="display:none;" onclick="openProfile()">
           <img src="/Pictures/WhatsApp Image 2025-02-05 at 02.23.51_bf35e5bc.jpg" alt="Profile">
           <div class="overlay-text">Profile</div>
@@ -30,21 +33,10 @@
           <button type="button" onclick="logout()">Logout</button>
         </div>
       </div>
-  
-      <div id="contactModal" class="modal">
-        <div class="modal-content">
-          <span class="close" onclick="closeContact()">&times;</span>
-          <h2>Contact Us</h2>
-          <form>
-            <input type="text" placeholder="ຊື່" lang="lo">
-            <input type="email" placeholder="ອີເມວ" lang="lo">
-            <textarea placeholder="ກ່ຽວກັບ..." rows="5" lang="lo"></textarea>
-            <button type="submit" onclick="randomLink()" lang="en">Submit</button>
-          </form>
-        </div>
-      </div>
     </div>
+    <!-- end navbar1 -->
   
+    <!-- navbar2 -->
     <div class="header">
       <div class="headerText">
         <h2>
@@ -55,7 +47,9 @@
           <span lang="lo">ມາຄົ້ນຫາອາຊີບທີ່ເຈົ້າຕ້ອງການ ເພື່ອການວາງແຜນອະນາຄົດທີ່ໝັ້ນຄົງ</span>
         </p>
       </div>
+      <!-- end navbar2 -->
      
+      <!-- menu bar -->
       <div class="menu-bar">
         <a href="#1">
           <div class="menu-item">
@@ -89,7 +83,8 @@
         </div>
       </div>
     </div>
-  
+    <!-- end menu bar -->
+    
     <h2 class="lol">
       <span lang="lo">ເປັນຫຍັງເຮົາຕ້ອງຮູ້ຈັກອາຊີບທີ່ຕົນຕ້ອງເຮັດ?</span>
     </h2>
@@ -104,7 +99,8 @@
     <p class="low1">
       <span lang="lo" lang="en">ສາຍວຽກໃນດ້ານIT<b>ບໍ່ໄດ້ຈຳກັດຢູ່ພຽງການຂຽນໂປຣແກຣມເທົ່ານັ້ນ</b>, ແຕ່ຍັງກວມລວມໄປເຖິງຫຼາຍສາຂາເຊັ່ນ:</span>
     </p>
-  
+    
+    <!-- icon -->
     <div class="icon-grid">
       <div class="icon-item">
         <img src="/Pictures/WhatsApp_Image_2025-06-30_at_21.34.34_5f081880_-_Copy__2_-removebg-preview.png" alt="icon">
@@ -131,6 +127,7 @@
         <p style="position: absolute; top: 90%; left: 24%; "><span lang="lo" lang="en">ແອັບພິເຄຊັນ</span></p>
       </div>
     </div>
+    <!-- end icon -->
   
     <p class="low2">
       <span lang="lo">ດັ່ງນັ້ນ, ເນື້ອຫາຕໍ່ໄປນີ້ຈຶ່ງໄດ້ຖືກເຮັດຂຶ້ນເພື່ອອະທິບາຍປະເພດແລະແນະນໍາຂອງອາຊີບໃນສາຍITຢ່າງຊັດເຈນໂດຍມີຈຸດປະສົງເພື່ອໃຫ້ຜູ້ອ່ານເຂົ້າໃຈເຖິງຫນ້າທີ່ແລະທັກສະທີ່ຈຳເປັນໃນແຕ່ລະປະເພດຂອງງານ ເຊິ່ງຈະເປັນປະໂຫຍດແກ່ຜູ້ທີ່ສົນໃຈ ຫຼື ກຳລັງວາງແຜນເຂົ້າສູ່ສາຍວຽກດ້ານITໃຫ້ສາມາດກຽມຄວາມພ້ອມໄດ້ຢ່າງເໝາະສົມ.</span>
@@ -141,6 +138,7 @@
     </p>
   </div>
 
+  <!-- menu job -->
   <div class="navbar2">
     <div class="menu-bar2" id="1">
           <img src="/Pictures/90116f77da963aca5ae70742204528a1cdafdece-removebg-preview.png " alt="icon" class="icon-itdev">
@@ -160,15 +158,15 @@
             <h3 class="sub-title-it">ອາຊີບທີ່ເປັນທີ່ນິຍົມໃນສາຍນີ້:</h3>
             <div class="job-grid-it">
               <a href="IT Development.html#SE">
-                <div class="job-box-it" style="background-color: #fbfdf3;">
-                  <img class="img-job" src="/Pictures/c (2).jpeg">
+                <div class="job-box-it" style="background-color: #effdee;">
+                  <img class="img-job" src="/Pictures/c (1).jpeg">
                   <p class="text-job">Software Engineer</p>
                 </div>
               </a>
 
               <a href="IT Development.html#SD">
-                <div class="job-box-it" style="background-color: #effdee;">
-                  <img class="img-job" src="/Pictures/c (1).jpeg">
+                <div class="job-box-it" style="background-color: #fbfdf3  ;">
+                  <img class="img-job" src="/Pictures/c (2).jpeg">
                   <p class="text-job">Software Developer</p>
                 </div>
               </a>
@@ -184,21 +182,7 @@
           </div>
         </div>
       </div>
-      
-      <div class="card-itdev2">
-        <div class="card-body-it">
-          <div class="left-section-it2">
-            <h4 class="sub-title-ith2">Other:</h4>
-          </div>
-          <div class="right-section-it">
-            <div class="other-grid-it">
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+
   </div>
   <div class="navbar3">
     <div class="menu-bar2" id="1">
@@ -253,21 +237,7 @@
           </div>
         </div>
       </div>
-      
-      <div class="card-itdev2">
-        <div class="card-body-it">
-          <div class="left-section-it2">
-            <h4 class="sub-title-ith2">Other:</h4>
-          </div>
-          <div class="right-section-it">
-            <div class="other-grid-it">
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+
   </div>
   <div class="navbar2">
     <div class="menu-bar2" id="1">
@@ -319,21 +289,7 @@
           </div>
         </div>
       </div>
-      
-      <div class="card-itdev2">
-        <div class="card-body-it">
-          <div class="left-section-it2">
-            <h4 class="sub-title-ith2">Other:</h4>
-          </div>
-          <div class="right-section-it">
-            <div class="other-grid-it">
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+
   </div>
   <div class="navbar3">
     <div class="menu-bar2" id="1">
@@ -385,21 +341,7 @@
           </div>
         </div>
       </div>
-      
-      <div class="card-itdev2">
-        <div class="card-body-it">
-          <div class="left-section-it2">
-            <h4 class="sub-title-ith2">Other:</h4>
-          </div>
-          <div class="right-section-it">
-            <div class="other-grid-it">
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+
   </div>
   <div class="navbar2">
     <div class="menu-bar2" id="1">
@@ -451,21 +393,7 @@
           </div>
         </div>
       </div>
-      
-      <div class="card-itdev2">
-        <div class="card-body-it">
-          <div class="left-section-it2">
-            <h4 class="sub-title-ith2">Other:</h4>
-          </div>
-          <div class="right-section-it">
-            <div class="other-grid-it">
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+
   </div>
   <div class="navbar3">
     <div class="menu-bar2" id="1">
@@ -518,21 +446,7 @@
           </div>
         </div>
       </div>
-      
-      <div class="card-itdev2">
-        <div class="card-body-it">
-          <div class="left-section-it2">
-            <h4 class="sub-title-ith2">Other:</h4>
-          </div>
-          <div class="right-section-it">
-            <div class="other-grid-it">
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+
   </div>
   <div class="navbar2">
     <div class="menu-bar2" id="1">
@@ -585,21 +499,61 @@
           </div>
         </div>
       </div>
-      
-      <div class="card-itdev2">
-        <div class="card-body-it">
-          <div class="left-section-it2">
-            <h4 class="sub-title-ith2">Other:</h4>
-          </div>
-          <div class="right-section-it">
-            <div class="other-grid-it">
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-              <div class="other-box-it"></div>
-            </div>
-          </div>
+  </div>
+  <!-- end menu job -->
+
+  <div class="endle">
+    <h2 class="text-rank">ອາຊີບຍອດນິຍົມຂອງຂະແໜງໄອທີ</h2>
+    <div class="git-rank">
+      <div class="box1-rank">
+          <img src="/Pictures/c (6).jpeg" class="img-rank">
+          <h4 class="box-text-rank">DevOps Engineer</h4>
+        </div>
+        <div class="box1-rank">
+          <img src="/Pictures/c (8).jpeg" class="img-rank">
+          <h4 class="box-text-rank">Data Scientist</h4>
+        </div>
+        <div class="box1-rank">
+          <img src="/Pictures/c (1).jpeg" class="img-rank">
+          <h4 class="box-text-rank">Software Engineer</h4>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="navend">
+    <a href="#Home">
+      <div class="Logo1">
+        <img src="/Pictures/4.png" class="img-Logo" alt="Logo1">
+      </div>
+    </a>
+    
+
+    <div class="text-endle">
+      <a href="About us.html">
+        <h5 class="text-1">
+          About us
+        </h5>
+      </a>
+      <h5 class="text-1">
+        Reference
+      </h5>
+    </div>
+
+    <div class="endle2">
+      <h5 class="text-3">
+        Contact us
+      </h5>
+      <a onclick="randomLinkF()">
+        <img src="Pictures/1.png" alt="1" class="img-endle">
+      </a>
+      <a onclick="randomLinkIG()">
+        <img src="Pictures/2.png" alt="2" class="img-endle">
+      </a>
+      <a onclick="randomLinkW()">
+        <img src="Pictures/3.png" alt="3" class="img-endle">
+      </a>
+    </div>
   </div>
 </body>
 <script src="Funion.js"></script>
