@@ -29,6 +29,10 @@ body {
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.603);
 }
 
+.box-job {
+    text-align: center;
+}
+
 .Job {
     margin-top: 150px;
 }
